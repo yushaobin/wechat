@@ -11,6 +11,11 @@ header {
 	line-height: 3rem;
 	font-size: 1rem;
 	padding: 0 1rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 111;
+	box-sizing: border-box;
 
 }
 header .icon_box  {
@@ -21,7 +26,9 @@ header .icon_box img {
 	height: 1rem;
 	margin-left: .5rem;
 }
-
+main{
+	padding-top:3rem; 
+}
 /***底部导航***/
 footer {
 	height: 3rem;
